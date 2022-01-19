@@ -31,7 +31,7 @@ jobs:
         pip install -r requirements.txt
         
         python automatizacion.py
-        find . -name "geometriaMOP 19-1-2022.json"
+        ls -l
 
     - uses: stefanzweifel/git-auto-commit-action@v2
       with:

@@ -38,9 +38,11 @@ def proceso():
 if __name__ == '__main__':
     try:
         proceso()
+        print("Todo bien")
     except:
         try:
             proceso()
+            print("Todo bien")
         except:
             error = sys.exc_info()[1]
             print(error)
