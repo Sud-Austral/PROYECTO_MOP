@@ -172,3 +172,9 @@ JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1642628461674	geckodriver	INFO	Listening on 127.0.0.1:43695
+1642628461952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59317" "-no-remote" "-profile" "/tmp/rust_mozprofiler6tleB"
+Error: no DISPLAY environment variable specified
+1642628462265	geckodriver	INFO	Listening on 127.0.0.1:48727
+1642628462272	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34201" "-no-remote" "-profile" "/tmp/rust_mozprofileJNEgy1"
+Error: no DISPLAY environment variable specified
