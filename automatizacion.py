@@ -15,13 +15,13 @@ import sys
 
 def getDriver():
 
-    profile = webdriver.FirefoxProfile()
-    profile.set_preference("browser.download.folderList", 2)
-    profile.set_preference("browser.download.manager.showWhenStarting", False)
-    profile.set_preference("browser.download.dir", "descarga/")
-    profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
+    #profile = webdriver.FirefoxProfile()
+    #profile.set_preference("browser.download.folderList", 2)
+    #profile.set_preference("browser.download.manager.showWhenStarting", False)
+    #profile.set_preference("browser.download.dir", "descarga/")
+    #profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
 
-    driver = webdriver.Firefox(profile)
+    driver = webdriver.Firefox()
     
     driver.get("http://www.geomop.cl/VisorObras/#/home")
     
