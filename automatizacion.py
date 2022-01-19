@@ -15,14 +15,15 @@ import sys
 
 def getDriver():
 
+    options = Options()
     #profile = webdriver.FirefoxProfile()
     #profile.set_preference("browser.download.folderList", 2)
     #profile.set_preference("browser.download.manager.showWhenStarting", False)
     #profile.set_preference("browser.download.dir", "descarga/")
-    #profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
-
-    driver = webdriver.Firefox()
+    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
     
+    driver = webdriver.Firefox(options=options)
+    driver.set_page_load_timeout("60")
     driver.get("http://www.geomop.cl/VisorObras/#/home")
     
     return driver
@@ -32,6 +33,8 @@ def proceso():
     btndescarga.click()
     btngeojson = driver.find_element_by_xpath('/html/body/div[4]/div[2]/div/div/div/button[3]')
     btngeojson.click()
+    time.sleep(30)
+    print("Terminamos")
     return
 
 
