@@ -18,7 +18,7 @@ def getDriver():
     profile = webdriver.FirefoxProfile()
     profile.set_preference("browser.download.folderList", 2)
     profile.set_preference("browser.download.manager.showWhenStarting", False)
-    profile.set_preference("browser.download.dir", "https://github.com/Sud-Austral/PROYECTO_MOP")
+    profile.set_preference("browser.download.dir", "descarga/")
     profile.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
 
     driver = webdriver.Firefox(profile)
