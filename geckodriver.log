@@ -176,3 +176,9 @@ JavaScript error: resource://activity-stream/lib/PersonalityProvider/Personality
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 68: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1642629436067	geckodriver	INFO	Listening on 127.0.0.1:60125
+1642629436501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49269" "-no-remote" "-profile" "/tmp/rust_mozprofilekT1mre"
+Error: no DISPLAY environment variable specified
+1642629436808	geckodriver	INFO	Listening on 127.0.0.1:34405
+1642629436813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49379" "-no-remote" "-profile" "/tmp/rust_mozprofileMFh1lQ"
+Error: no DISPLAY environment variable specified
