@@ -24,14 +24,14 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.7
-
+      #ls -l
     - name: AUTOMATIZACIÓN
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
         python automatizacion.py
-        ls -l
+        
 
     - uses: stefanzweifel/git-auto-commit-action@v2
       with:
