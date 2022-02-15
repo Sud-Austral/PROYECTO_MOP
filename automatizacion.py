@@ -35,6 +35,7 @@ def proceso():
     options = Options()
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
     driver = webdriver.Firefox(options=options)
+    print("Aca")
     #driver = getDriver()
     #btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
     #btndescarga.click()
@@ -47,13 +48,14 @@ def proceso():
 
 
 if __name__ == '__main__':
-    try:
-        proceso()
-        print("Todo bien")
-    except:
-        try:
-            proceso()
-            print("Todo bien")
-        except:
-            error = sys.exc_info()[1]
-            print(error)
+    proceso()
+    #try:
+    #    proceso()
+    #    print("Todo bien")
+    #except:
+    #    try:
+    #        proceso()
+    #        print("Todo bien")
+    #    except:
+    #        error = sys.exc_info()[1]
+    #        print(error)
