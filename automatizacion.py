@@ -16,23 +16,26 @@ import glob
 import sys
 
 def getDriver():
-
     options = Options()
     #profile = webdriver.FirefoxProfile()
     #profile.set_preference("browser.download.folderList", 2)
     #profile.set_preference("browser.download.manager.showWhenStarting", False)
     #profile.set_preference("browser.download.dir", "descarga/")
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
-    service = Service(executable_path="chromedriver")
+    #service = Service(executable_path="chromedriver")
     #driver = webdriver.Chrome(service=service)
-    driver = webdriver.Firefox(options=options,service=service)
-    driver.set_page_load_timeout("60")
-    driver.get("http://www.geomop.cl/VisorObras/#/home")
+    #driver = webdriver.Firefox(options=options,service=service)
+    #driver.set_page_load_timeout("60")
+    #driver.get("http://www.geomop.cl/VisorObras/#/home")
     
-    return driver
+    #return driver
+    return
 def proceso():
     print("Comenzamos")
-    driver = getDriver()
+    options = Options()
+    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
+    driver = webdriver.Firefox(options=options)
+    #driver = getDriver()
     #btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
     #btndescarga.click()
     #print(btndescarga.text)
