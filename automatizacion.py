@@ -1,7 +1,7 @@
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
+#from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium.webdriver.firefox.options import Options
 #from selenium.webdriver.firefox.service import Service
 #from selenium.webdriver.chrome.service import Service
@@ -33,8 +33,12 @@ def getDriver():
 def proceso():
     print("Comenzamos")
     options = Options()
-    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
+    options.log.level = "trace"
+    options.add_argument("--headless")
+    options.set_preference("browser.download.manager.showWhenStarting", False)
+    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
     driver = webdriver.Firefox(options=options)
+    driver.set_page_load_timeout("60")
     print("Aca")
     #driver = getDriver()
     #btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
