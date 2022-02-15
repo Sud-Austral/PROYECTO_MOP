@@ -28,6 +28,7 @@ jobs:
     - name: AUTOMATIZACIÓN
       run: |
         sudo apt install firefox
+        firefox
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
