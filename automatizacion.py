@@ -1,5 +1,5 @@
 from datetime import datetime
-from selenium import webdriver
+from selenium import webdriver, Service
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from selenium.webdriver.firefox.options import Options
@@ -21,8 +21,9 @@ def getDriver():
     #profile.set_preference("browser.download.manager.showWhenStarting", False)
     #profile.set_preference("browser.download.dir", "descarga/")
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/x-gzip")
-    
-    driver = webdriver.Firefox(options=options)
+    service = Service(executable_path="geckodriver")
+    #driver = webdriver.Chrome(service=service)
+    driver = webdriver.Firefox(options=options,service=service)
     driver.set_page_load_timeout("60")
     driver.get("http://www.geomop.cl/VisorObras/#/home")
     
