@@ -31,6 +31,7 @@ def proceso():
     driver = getDriver()
     btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
     btndescarga.click()
+    print(btndescarga.text)
     btngeojson = driver.find_element_by_xpath('/html/body/div[4]/div[2]/div/div/div/button[3]')
     btngeojson.click()
     time.sleep(30)
