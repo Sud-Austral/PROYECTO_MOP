@@ -36,9 +36,18 @@ def proceso():
     options.log.level = "trace"
     options.add_argument("--headless")
     options.set_preference("browser.download.manager.showWhenStarting", False)
-    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
+    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/json")
     driver = webdriver.Firefox(options=options)
     driver.set_page_load_timeout("60")
+    driver.get("http://www.geomop.cl/VisorObras/#/home")
+    btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
+    btndescarga.click()
+    try:
+        btngeojson = driver.find_element_by_xpath('/html/body/div[4]/div[2]/div/div/div/button[3]')
+        btngeojson.click()
+    except:
+        btngeojson = driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div/button[3]')
+        btngeojson.click()
     print("Aca")
     #driver = getDriver()
     #btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
