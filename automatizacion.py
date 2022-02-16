@@ -63,6 +63,8 @@ def proceso():
         btngeojson = driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div/button[3]')
         btngeojson.click()
         print("Aca3")
+    now = datetime.datetime.now()
+    shutil.move(f"geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json", f"Data_Legacy/geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json")
     print("Aca")
     #driver = getDriver()
     #btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
