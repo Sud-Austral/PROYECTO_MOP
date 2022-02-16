@@ -39,7 +39,9 @@ def proceso():
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/json")
     driver = webdriver.Firefox(options=options)
     driver.set_page_load_timeout("60")
-    driver.get("http://www.geomop.cl/VisorObras/#/home")
+    #driver.get("http://www.geomop.cl/VisorObras/#/home")
+    url = "https://ide.mop.gob.cl/VisorObras/#/home"
+    driver.get(url)
     btndescarga = driver.find_element_by_xpath('/html/body/app-root/app-home/div/app-filter/div/section/button[2]')
     btndescarga.click()
     print("Aca0")
