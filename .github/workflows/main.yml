@@ -27,12 +27,13 @@ jobs:
       #ls -l
     - name: AUTOMATIZACIÓN
       run: |
+        pwd
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
         python automatizacion.py
         ls -l /tmp/mozilla_runner0
-        
+        echo "Hola"
 
     - uses: stefanzweifel/git-auto-commit-action@v2
       with:
