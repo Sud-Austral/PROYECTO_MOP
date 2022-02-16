@@ -35,6 +35,7 @@ def proceso():
     options = Options()
     options.log.level = "trace"
     options.add_argument("--headless")
+    options.set_preference("browser.download.dir", ".")
     options.set_preference("browser.download.manager.showWhenStarting", False)
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/json")
     driver = webdriver.Firefox(options=options)
