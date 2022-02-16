@@ -36,7 +36,9 @@ def proceso():
     options.log.level = "trace"
     options.add_argument("--headless")
     #options.set_preference("browser.download.dir", "/home/runner/work/PROYECTO_MOP/PROYECTO_MOP")
+    options.set_preference("browser.download.folderList", 2)
     options.set_preference("browser.download.manager.showWhenStarting", False)
+    options.set_preference("browser.download.dir", os.getcwd())
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/json")
     driver = webdriver.Firefox(options=options)
     driver.set_page_load_timeout("60")
