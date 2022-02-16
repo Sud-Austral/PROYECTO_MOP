@@ -58,6 +58,8 @@ def proceso():
         
     except:
         print("Aca2")
+        error = sys.exc_info()[1]
+        print(error)
         btngeojson = driver.find_element_by_xpath('/html/body/div[3]/div[2]/div/div/div/button[3]')
         btngeojson.click()
         print("Aca3")
