@@ -32,7 +32,7 @@ jobs:
         pip install -r requirements.txt
         
         python automatizacion.py
-        ls -l /tmp/mozilla_runner0
+        ls -l /tmp/
         echo "Hola"
 
     - uses: stefanzweifel/git-auto-commit-action@v2
