@@ -7225,3 +7225,244 @@ JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: 
 
 (firefox:1916): GLib-GObject-CRITICAL **: 12:05:13.535: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1645790713627	Marionette	DEBUG	Closed connection 0
+1645834184453	geckodriver	INFO	Listening on 127.0.0.1:43259
+1645834184756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "42133" "-no-remote" "-profile" "/tmp/rust_mozprofilegBbi89"
+1645834184757	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:42641
+1645834184757	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834184857	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+*** You are running in headless mode.
+1645834184958	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185058	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185159	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185259	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185359	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185459	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185560	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185660	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185760	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185861	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834185961	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186061	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186162	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186262	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186363	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186463	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186563	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186664	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186764	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186864	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834186965	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187065	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187165	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187266	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187366	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187466	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187567	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187667	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187768	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187868	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834187968	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188069	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188169	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188269	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188370	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188470	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188570	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188671	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188771	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188871	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834188972	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189072	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189172	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189273	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189373	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189473	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189574	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189674	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189774	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189875	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834189975	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190075	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190176	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190276	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190376	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190476	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190577	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1645834190677	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190777	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190878	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834190978	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191078	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191179	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191279	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191292	RemoteAgent	DEBUG	CDP enabled
+1645834191292	Marionette	INFO	Marionette enabled
+1645834191379	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191480	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191580	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191680	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191780	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191881	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834191981	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192081	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192182	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192282	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192342	Marionette	TRACE	Received observer notification toplevel-window-ready
+1645834192382	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192483	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192583	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192683	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192783	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192884	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834192984	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193084	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193185	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193285	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193385	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193485	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193586	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193686	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193786	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193889	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834193989	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194090	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194190	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194290	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194391	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194491	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194591	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1645834194692	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194793	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194893	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834194993	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195093	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195194	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegBbi89/search.json.mozlz4", (void 0)))
+1645834195294	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195394	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195494	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195595	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195695	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195795	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195896	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834195996	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834196096	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834196196	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834196297	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834196397	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834196482	RemoteAgent	TRACE	Received observer notification remote-startup-requested
+1645834196499	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1645834196504	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1645834196504	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1645834196505	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1645834196505	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1645834196506	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1645834196507	RemoteAgent	DEBUG	Setting recommended pref browser.search.update to false
+1645834196507	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1645834196507	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1645834196507	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1645834196508	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1645834196508	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1645834196508	RemoteAgent	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1645834196509	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1645834196510	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1645834196511	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1645834196511	RemoteAgent	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1645834196511	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1645834196512	RemoteAgent	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1645834196512	RemoteAgent	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1645834196513	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1645834196513	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1645834196513	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1645834196513	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1645834196514	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1645834196514	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1645834196514	RemoteAgent	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1645834196514	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1645834196514	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1645834196516	RemoteAgent	DEBUG	Setting recommended pref signon.rememberSignons to false
+1645834196517	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1645834196517	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.features.standard to -tp,tpPrivate,cookieBehavior0,-cm,-fp
+1645834196517	RemoteAgent	DEBUG	Setting recommended pref network.cookie.cookieBehavior to 0
+1645834196521	Marionette	TRACE	Received observer notification marionette-startup-requested
+1645834196521	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+DevTools listening on ws://localhost:42133/devtools/browser/f17a405c-2dba-4988-9bfc-96b5d32baf50
+1645834196553	Marionette	TRACE	All scripts recorded.
+1645834196553	RemoteAgent	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1645834196554	Marionette	INFO	Listening on port 42641
+1645834196555	Marionette	DEBUG	Marionette is listening
+1645834197087	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:40792
+1645834197089	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:42641.
+1645834197097	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","pageLoadStrategy":"normal"}]
+1645834197152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645834197159	RemoteAgent	TRACE	[21] Document already finished loading: about:blank
+1645834197163	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"bbd579e9-75b9-4046-8398-199d98d5f89b","capabilities":{"browserName":"firefox","browserVersion":"97.0" ... ofilegBbi89","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"proxy":{}}}]
+1645834197176	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"bbd579e9-75b9-4046-8398-199d98d5f89b","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"97.0","moz:accessibilityChecks":false,"moz:buildID":"20220202182137","moz:debuggerAddress":"localhost:42133","moz:geckodriverVersion":"0.30.0","moz:headless":true,"moz:processID":2005,"moz:profile":"/tmp/rust_mozprofilegBbi89","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"linux","platformVersion":"5.11.0-1028-azure","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1645834197178	webdriver::server	DEBUG	-> POST /session/bbd579e9-75b9-4046-8398-199d98d5f89b/timeouts {"pageLoad": 60000}
+1645834197198	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":60000}]
+1645834197199	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1645834197199	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1645834197200	webdriver::server	DEBUG	-> POST /session/bbd579e9-75b9-4046-8398-199d98d5f89b/url {"url": "https://ide.mop.gob.cl/VisorObras/#/home"}
+1645834197201	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://ide.mop.gob.cl/VisorObras/#/home"}]
+1645834197208	Marionette	TRACE	[21] Received event beforeunload for about:blank
+1645834198376	Marionette	TRACE	[21] Received event pagehide for about:blank
+1645834237386	Marionette	TRACE	[21] Received event DOMContentLoaded for https://ide.mop.gob.cl/VisorObras/#/home
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://js.arcgis.com/4.19/esri/views/MapView.js, line 424: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1645834238920	Marionette	TRACE	[21] Received event pageshow for https://ide.mop.gob.cl/VisorObras/#/home
+1645834238921	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1645834238935	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1645834238937	webdriver::server	DEBUG	-> POST /session/bbd579e9-75b9-4046-8398-199d98d5f89b/element {"using": "xpath", "value": "/html/body/app-root/app-home/div/app-filter/div/section/button[2]"}
+1645834238948	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/app-root/app-home/div/app-filter/div/section/button[2]"}]
+1645834238952	Marionette	TRACE	[21] MarionetteCommands actor created for window id 4294967298
+1645834238964	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9599ca7d-f213-4797-a7e3-57ac5ab98d5b"}}]
+1645834238964	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"9599ca7d-f213-4797-a7e3-57ac5ab98d5b"}}
+1645834238966	webdriver::server	DEBUG	-> POST /session/bbd579e9-75b9-4046-8398-199d98d5f89b/element/9599ca7d-f213-4797-a7e3-57ac5ab98d5b/click {"id": "9599ca7d-f213-4797-a7e3-57ac5ab98d5b"}
+1645834238968	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementClick",{"id":"9599ca7d-f213-4797-a7e3-57ac5ab98d5b"}]
+1645834239065	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1645834239279	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1645834239280	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1645834239281	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1645834239284	webdriver::server	DEBUG	-> GET /session/bbd579e9-75b9-4046-8398-199d98d5f89b/element/9599ca7d-f213-4797-a7e3-57ac5ab98d5b/text 
+1645834239285	Marionette	DEBUG	0 -> [0,6,"WebDriver:GetElementText",{"id":"9599ca7d-f213-4797-a7e3-57ac5ab98d5b"}]
+1645834239323	Marionette	DEBUG	0 <- [1,6,null,{"value":"Descargas keyboard_arrow_down"}]
+1645834239323	webdriver::server	DEBUG	<- 200 OK {"value":"Descargas keyboard_arrow_down"}
+1645834269340	webdriver::server	DEBUG	-> POST /session/bbd579e9-75b9-4046-8398-199d98d5f89b/element {"using": "xpath", "value": "/html/body/div[4]/div[2]/div/div/div/button[3]"}
+1645834269342	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[4]/div[2]/div/div/div/button[3]"}]
+1645834269346	Marionette	DEBUG	0 <- [1,7,{"error":"no such element","message":"Unable to locate element: /html/body/div[4]/div[2]/div/div/div/button[3]","stacktr ... te/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16\n"},null]
+1645834269347	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such element","message":"Unable to locate element: /html/body/div[4]/div[2]/div/div/div/button[3]","stacktrace":"WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16\n"}}
+1645834269348	webdriver::server	DEBUG	-> POST /session/bbd579e9-75b9-4046-8398-199d98d5f89b/element {"using": "xpath", "value": "/html/body/div[3]/div[2]/div/div/div/button[3]"}
+1645834269349	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[3]/div[2]/div/div/div/button[3]"}]
+1645834269351	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0d270524-710f-42ef-8e0c-27f44ec801f0"}}]
+1645834269352	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"0d270524-710f-42ef-8e0c-27f44ec801f0"}}
+1645834269353	webdriver::server	DEBUG	-> POST /session/bbd579e9-75b9-4046-8398-199d98d5f89b/element/0d270524-710f-42ef-8e0c-27f44ec801f0/click {"id": "0d270524-710f-42ef-8e0c-27f44ec801f0"}
+1645834269354	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"0d270524-710f-42ef-8e0c-27f44ec801f0"}]
+1645834269915	Marionette	TRACE	Received DOM event click for [object HTMLButtonElement]
+1645834269932	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1645834270241	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1645834270242	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1645834270247	webdriver::server	DEBUG	<- 200 OK {"value":null}
+
+(firefox:2005): GLib-GObject-CRITICAL **: 00:11:10.413: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1645834270630	Marionette	DEBUG	Closed connection 0
