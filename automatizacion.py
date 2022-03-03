@@ -64,6 +64,7 @@ def proceso():
         btngeojson.click()
         print("Aca3")
     now = datetime.datetime.now()
+    print(f"geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json")
     shutil.copy(f"geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json", f"Data_Legacy/geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json")
     shutil.copy(f"geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json", f"Data/ObrasMOP.json")
     
