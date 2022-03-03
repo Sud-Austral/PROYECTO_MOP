@@ -65,8 +65,8 @@ def proceso():
         print("Aca3")
     now = datetime.datetime.now() - datetime.timedelta(hours=5)
     print(f"geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json")
-    shutil.copy(f"geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json", f"Data_Legacy/geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json")
-    shutil.copy(f"geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json", f"Data/ObrasMOP.json")
+    shutil.copy(f"geometriaMOP 0{now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json", f"Data_Legacy/geometriaMOP {now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json")
+    shutil.copy(f"geometriaMOP 0{now.strftime('%d')}-{str(int(now.strftime('%m')))}-{now.strftime('%Y')}.json", f"Data/ObrasMOP.json")
     
     print("Aca")
     #driver = getDriver()
